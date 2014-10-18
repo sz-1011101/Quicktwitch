@@ -27,7 +27,7 @@ def print_stream_list(stream_list):
     print "Results: "
     counter = 0
     for item in stream_list:
-        print("(" + str(counter) + ") " + item[0] + " | "+ item[1] + " | " + unicode(item[2]) + " Viewers")
+        print("(" + str(counter) + ") " + item[0] + " | "+ item[1] + " | " + str(item[2]) + " Viewers")
         counter += 1
 
 #  Script entry point
